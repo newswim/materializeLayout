@@ -1,0 +1,34 @@
+/* CSS declarations go here */
+
+
+.mediumSpace {
+	height: 300px;
+	width: 100%;
+	background-color: brown;
+}
+
+
+.formPadding {
+	margin-top: 50px;
+}
+
+nav:after {
+		content:"";
+		position:absolute;
+		width:100%;
+		height:10px;
+  	background-color: HSLA(0, 0%, 100%, .5);
+}
+
+nav .brand-logo {
+  position: absolute;
+  color: transparent;
+  display: inline-block;
+  font-size: 2.1rem;
+  padding: 0;
+  width: 377px;
+  background-position: 46% 64%;
+  background-repeat: no-repeat;
+  background-size: 89% 86%;
+  background-image: url('reachLogo.png');
+}
