@@ -32,3 +32,22 @@ nav .brand-logo {
   background-size: 89% 86%;
   background-image: url('reachLogo.png');
 }
+
+
+/* mix-ins */
+
+.greenBorder {
+	border: 6px dotted teal;
+}
+
+.centerText {
+	margin-left: auto;
+  margin-right: auto;
+  width: 100vw;
+  position: relative;
+  text-align: center;
+}
+
+
+
+
